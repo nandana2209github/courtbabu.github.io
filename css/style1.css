@@ -22,7 +22,7 @@ body{
                 -13px -13px 20px #ffffff
 }
 .logo{
-    background: url("/image/icon-login.png");
+    background: url("image/icon-login.png");
     width: 65px;
     height: 65px;
     border-radius: 50%;
