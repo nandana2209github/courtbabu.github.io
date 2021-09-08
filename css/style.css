@@ -1,0 +1,1072 @@
+
+@font-face{
+    font-family:"Raleway-regular";
+    src: url(../fonts/Raleway-Regular.ttf)
+}
+@font-face{
+    font-family:"Raleway-Medium";
+    src: url(../fonts/Raleway-Medium.ttf)
+}
+@font-face{
+    font-family:"Raleway-SemiBold";
+    src: url(../fonts/Raleway-SemiBold.ttf)
+}
+@font-face{
+    font-family:"Raleway-SemiBoldItalic";
+    src: url(../fonts/Raleway-SemiBoldItalic.ttf)
+}
+@font-face{
+    font-family:"Raleway-ThinItalic";
+    src: url(../fonts/Raleway-ThinItalic.ttf)
+}
+@font-face{
+    font-family:"Raleway-LightItalic";
+    src: url(../fonts/Raleway-LightItalic.ttf)
+}
+@font-face{
+    font-family:"Raleway-Black";
+    src: url(../fonts/Raleway-Black.ttf)
+}
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@0;1&display=swap');
+/* font-family : 'Arvo', serif; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Zilla+Slab:ital,wght@1,300&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Zilla Slab', serif; */
+
+:root {
+    --main-bg-color: rgb(241, 81, 113);
+    --green: rgb(100, 238, 58);
+    --yellow: rgb(233, 233, 7);
+    --orange:rgb(248, 102, 4);
+    --font1:'Dancing Script', cursive;
+    --font2:  'Zilla Slab', serif;
+  }
+/* .font1{
+    font-family: 'Dancing Script', cursive;
+} */
+.font2{
+    font-family: 'Zilla Slab', serif;
+}
+
+.green{
+    color: rgb(26, 97, 5);
+    font-size: 15px;
+    font-family: var(--font2);
+}
+.title{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:" serif";
+    padding: 10px;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+
+/* .red{
+    background-color: #BD081C;
+} */
+
+
+.black{
+     background-color: black;
+}
+
+   
+.nav-bar-border{
+      border: 2px solid rgb(131, 34, 4);
+  }
+
+.nav-bar-border a{
+      color: rgb(131, 34, 4);
+  }
+
+
+
+.navbar-bg, .navbar-bg .dropdown-menu, .navbar-bg .dropdown-menu a:focus{
+    background-color:rgb(240, 233, 233);
+    
+}
+
+
+.navbar-bg a,.navbar-bg a:hover,.navbar-bg a:focus{
+    color: rgb(221, 184, 18);
+}
+
+.navbar-drop .dropdown-menu {
+    margin-top: 0px;
+}
+
+
+.navbar-drop .dropdown-menu a{
+    background-color: rgb(86, 199, 42);
+    color: #d5dfdfef;
+   font-size: 13px;
+
+
+
+}
+.dropdown-menu .dropdown-item{
+    background-color: #000000;
+
+}
+
+.dropdown-divider{
+    background-color: #000000;
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+
+.navbar-drop .dropdown-menu a:hover{
+    background-color: rgb(241, 235, 235);
+    color:rgb(160, 6, 6);
+    
+
+}
+
+
+.red a{
+    color:rgb(238, 225, 225) ;
+     font-family: monospace; 
+ }
+
+.navbar-bg, .navbar-bg .name a{
+    color: rgb(187, 2, 2);
+    font-family: monospace;
+}
+
+/* social media icon  start css */
+
+.icon-bar{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    z-index: 10;
+
+
+} 
+.icon-bar a{
+    text-decoration: none;
+    width: 210px;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+    font-size: 15px;
+    transform: translateX(-180px);
+    /* -webkit-transform: translateX(-180%);
+    -ms-transform: translateX(-180%); */
+    transition:all 0.5s linear;
+    -webkit-transition:all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+
+} 
+
+.icon-bar a:hover{
+   transform: translateX(0);
+   -webkit-transform: translateX(0);
+   -ms-transform: translateX(0);
+
+}
+ .icon-bar a i{
+     padding-left: 30px;
+     font-size: 30px !important;
+     animation: letszoom 3s linear alternate-reverse infinite;
+
+ }
+ @keyframes letszoom{
+     from{
+        transform: scale(0.8)
+     }
+     t0{
+        transform: scale(1);
+     }
+ }
+
+ .facebook{
+     background: #1877F2;
+ }
+ .instagram{
+     background: #E4405F;
+ }
+ .twitter{
+     background: #1DA1F2;
+ }
+ .linkedin{
+     background: #0A66C2;
+ }
+
+ /* social media icon css end */
+
+ .yellow{
+     color: yellow;
+ }
+.font1{
+    color: rgb(216, 202, 7);
+    font-family:"serif";
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px rgb(199, 207, 87);
+
+    
+}
+
+.text-center{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.glass1{
+    margin-top: 40px;
+    background-color: rgb(19, 14, 14);
+
+    padding: 5px 25px;
+    border-radius: 2px;
+    backdrop-filter: blur(50px);
+    background-clip: padding-box;
+    box-shadow: 25px 25px 20px rgba(47, 49, 42, 0.3);
+
+}
+.lorem{
+     color: rgb(17, 20, 16);
+     font-size: 20px;
+     font-family:"avro";
+     font-weight: bold;
+     text-shadow: 1px 1px 0px rgb(141, 137, 137);
+
+}
+
+/* mobile css 1*/
+/* 
+@media  screen and (max-width:400px){
+    .glass1{
+        margin-top: 5px;
+        padding: 3px 25px;
+        text-align: center;
+        
+    }
+    .font1{
+        font-size: 25px;
+    }
+
+    .home-class{
+        margin-top: 70px;
+        margin-bottom: 0px;
+    }
+} */
+
+
+
+.home-class{
+     height: 100vh;
+     background-image: url("../image/paper.jpg");
+     display: flex;
+     background-size: cover;
+     margin-bottom: 25px;
+     
+} 
+.glass{
+    width: 1200px;
+    height: 400px;
+    background-color: rgba(255,255,255,0.1);
+    padding: 50px ;
+    border-radius: 5px;
+    backdrop-filter: blur(30px);
+    border: 3px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(45,55,68,0.30);
+    line-height: 1.5;
+    margin-left: 50px;
+    margin-top: 5px;
+
+}
+
+
+/* responsive css for hero section glass start here 2*/
+/* 
+@media  screen and (max-width:400px){
+    .glass{
+        width:800px;
+        height:700px;
+        margin-left: 0px;
+        padding: 10px;
+        margin-bottom: 75px;
+
+
+
+    }
+    
+}
+
+@media  screen and (max-width:770px){
+    
+    .home-class{
+        margin-bottom: 0px;
+        padding: 10px;
+        height: 90vh;
+    }
+    .glass{
+        width:800px;
+        height:800px;
+        margin-left: 0px;
+        padding: 10px;
+        margin-bottom: 75px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+
+
+
+    }
+   .glass1{
+        margin-top: 10px;
+        padding: 3px 25px ;
+        text-align: center;
+        font-size: 25px;
+   }
+
+   
+ .card-box{
+    display: flex;
+    margin: 0 35px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.our-expertise{
+    width: 100%;
+}
+.green{
+    font-size: 13px;
+}
+.flex{
+    margin: 5px;
+    height: 40vh;
+    width: 100%;
+    padding: 10px ;
+}
+.flex .box{
+    
+    display: flex;
+    position: relative;
+    max-width: 900px;
+    padding: 5px;
+    background: rgb(255,255, 255, .4);
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.5);
+    border: 5px solid transparent;
+    font-weight: bold;
+    font-family: var(--font2);
+    
+}
+
+   
+} */
+
+
+/* responsive css for hero section glass end here */
+
+ /* card css */
+
+ .card-box{
+     display: flex;
+     margin: 0 35px;
+     flex-wrap: wrap;
+ }
+
+/* mobile css3 */
+ /* @media  screen and (max-width:400px){
+    .card-box{
+        display: flex;
+        margin: 2px 0px;
+        flex-wrap: wrap;
+    }
+     .card{
+         position: relative;
+         margin:  5px 0px;
+         padding: 3px 3px;
+     }
+     .imgbox{
+        position: relative;
+        transform: translateY(-60px);
+        margin: 5px 0px;
+    }
+    .card .imgbox .btn-touch{
+        padding:0px 10px;
+        font-weight: bold;
+        margin: 25px 0;
+        font-size: 13px;
+        font-family:" avro";
+    
+    }
+    .card .content{
+        padding-top: 70px;
+        text-align: center;
+        transform: translateY(-300px);
+        opacity: 0;
+
+    }
+    .content p{
+        font-size: 12px;
+        padding-bottom: 2px;
+    }
+    .card .btn-call{
+        padding:3px 15px;
+        font-size: 12px;
+        font-family: "serif";
+
+    }
+    
+.card .imgbox .lets-talk{
+    padding:0px 25px;
+    margin: 25px 0;
+    font-size: 15px;
+    font-family:" avro";
+}
+.lorem{
+    font-size: 12px;
+}
+ } */
+
+ /* mobile caa end fr section one */
+ 
+.card{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 20px rgb(0, 0, 0, 0.5);
+    transition:0.3s ;
+    padding: 30px 30px;
+    background: #fff;
+    cursor: pointer;
+    margin: 15px;
+    text-align: center;
+}
+.card:hover{
+    height: 300px;
+
+}
+.card h3{
+    color: crimson;
+    text-align: center;
+    font-family: "raleway-regular";
+}
+.imgbox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-60px);
+}
+.imgbox h2{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(214, 6, 6);
+    padding-top: 15px;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(0, 0, 0, 0.5);
+    z-index: 1;
+
+}
+.content{
+    /* padding: 20px 20px; */
+    padding-top: 75px;
+    text-align: center;
+    transform: translateY(-300px);
+    opacity: 0;
+}
+.card:hover > .content{
+    opacity: 1;
+    transform: translateY(-150px);
+
+}
+/* .content h2{ */
+    /* color: crimson; */
+/* } */
+.content p{
+    color: grey;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.btn-call{
+    background-color:rgb(233, 233, 7);
+    color:#000;
+    border: 2px solid rgb(240, 229, 78);
+    padding:5px 15px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "raleway-regular";
+    box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.5);
+    text-decoration: none;
+
+
+}
+
+
+.btn-call:hover{
+    background-color: #000;
+    color:rgb(201, 196, 196);
+    border: 3px solid #000;
+
+}
+.btn-touch{
+    background-color: var(--green);
+    color:#000;
+     border: 2px solid rgb(100, 238, 58);
+    padding:3px 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    /* margin: 10px; */
+    margin-top: 15px;
+    font-size: 14px;
+    font-family:" serif";
+    box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.5);
+    text-decoration: none;
+
+
+}
+.lets-talk{
+    background-color:rgb(248, 102, 4);
+    color:rgb(25, 31, 20);
+    border: 2px solid var(--orange);
+    padding:3px 10px;
+    border-radius: 2px;
+    margin: 15px;
+    padding: 0px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family:" serif";
+    box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.5);
+    text-decoration: none;
+
+}
+.lets-talk a{
+    text-decoration: none;
+    color: #000;
+}
+.btn-touch:hover{
+    background-color: rgb(17, 16, 16);
+    color:rgb(250, 244, 244);
+    border: 2px solid rgb(155, 4, 4);
+    padding: 5px 15px;
+    
+}
+
+
+  
+/* card css */ 
+
+
+.our-expertise{
+    border: 2px solid transparent;
+    background-color: rgba(223, 215, 215, 0.4);
+    background-clip: padding-box;
+    padding: 15px;
+    /* margin-bottom: 55px; */
+    box-shadow: 5px 5px 5px rgba(115, 231, 86, 0.3);
+    line-height: 1.5;
+
+}
+
+.title{
+    margin:10px 0px;
+    color: rgb(189, 55, 7);
+    /* font-size: 15px; */
+}
+.whycourt{
+    /* height: 65vh; */
+    background-image: url("../image/flag.jpg");
+    display: flex;
+    background-size: cover;
+    /* margin-bottom: 25px; */
+    
+
+}
+
+/* mobile css4 */
+/* @media  screen and (max-width:400px){
+    .our-expertise{
+        font-size: 10px;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+
+
+
+    }
+
+    .mobile{
+        margin-top: 50px;
+    }
+    .services{
+        margin-top: 70px;
+        font-size: 25px;
+    }
+    .title{
+        font-size: 15px;
+        padding-bottom: 10px;
+
+    }
+    .green{
+        font-size: 12px;
+        
+    }
+    .whycourt{
+        margin-top: 10px;
+    }
+
+} */
+
+
+
+
+
+
+    
+    
+  /* flex box css start here */
+   
+
+.flex{
+    height: 75vh;
+    background-image: url('../image/redbook.jpg');
+    background-size: cover;
+    /* border-top: white 2px solid; */
+    display: flex;
+    padding: 0 100px;
+    align-items: center;
+    margin-top: 45px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+   
+}
+
+
+ 
+
+.box{
+    display: flex;
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    background: rgb(255,255, 255, .4);
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.5);
+    border: 5px solid transparent;
+    color: #000;
+    font-weight: bold;
+    font-family: var(--font2);
+
+    
+    
+}
+/* 
+.box p{
+    font-size: 15px;
+} */
+
+
+
+.box h3{
+    margin: 0, 0, 20px;
+    padding: 0;
+    font-size: 25px;
+    text-transform: capitalize;
+    color:var(--orange);
+    font-family: var(--font2);
+    font-weight: bold;
+}
+
+/* mobile css 5 */
+
+/* @media (max-width: 576px)  {
+    .box{
+        position: inherit;
+        padding: 5px;
+        display: block;
+        max-width: 100%;
+    }
+    .flex{
+        padding: 0px 5px;
+    }
+     
+
+
+} */
+
+
+
+
+/* new footer start */
+
+.footer{
+    /* background: #000; */
+    background-color: rgb(240, 232, 232);
+    padding: 0 0 10px 0;
+    color: rgb(5, 3, 43);
+    font-size: 15px;
+}
+.footer {
+    padding: 30px 0 30px 0;
+}
+
+
+
+.footer  p{
+    color: rgb(126, 125, 123);
+    font-size: 12px;
+}
+
+.footer  .social-links a{
+    font-size: 15px;
+    display: inline-block;
+    background: rgb(156, 154, 154);
+    color:var(--blue-color);
+    line-height:1;
+    padding:8px ;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align:center;
+    width: 30px;
+    height:30px;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+.footer  .social-links a:hover{
+    background: rgb(182, 3, 3);
+    color: #fff;
+    text-decoration: none;
+}
+.footer  h4{
+    font-size:16px;
+    font-weight:bold;
+    color: rgb(245, 201, 119);
+    position:relative;
+    padding-bottom: 5px;
+}
+.footer  .footer-links{
+    margin-bottom: 10px;
+}
+.footer  .footer-links ul li a{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    color: rgb(156, 154, 154);
+    text-decoration: none;
+}
+
+.footer  .footer-links ul li{
+    padding: 1px 0;
+    display: flex;
+    align-items:center;
+}
+.footer .footer-top .footer-links ul li:first-child{
+    padding-top:0;
+}
+.footer .footer-top .footer-links ul a{
+    color:#000;
+    transition:0.3s;
+    display: inline-block;
+    line-height: 1;
+}
+.footer .footer-links ul a:hover{
+    color: #ffffff;
+}
+.footer  .footer-newsletter form{
+    margin-top:30px;
+    background: #fff;
+    padding: 4px 6px;
+    position: relative;
+    border-radius: 4;
+}
+.footer .footer-newsletter form input[type="email"]{
+    border:0;
+    padding: 4px;
+    width: calc(100% - 110px);
+}
+.footer  .footer-newsletter form input[type="submit"]{
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    border:0;
+    background: none;
+    font-size:16px;
+    padding: 0 20px;
+    background: var(--orange);
+    color:#000;
+    transition: 0.3s;
+    border-radius:4;
+}
+.footer  .footer-newsletter form input[type="submit"]:hover{
+    background: var(--green);
+    color:#ffffff;
+}
+.footer .copyright p{
+    /* font-size: 1.3rem; */
+    /* text-shadow: 1px 1px black; */
+    border-top: 1px solid rgb(233, 172, 60);
+    border-bottom: 1px solid rgb(235, 172, 57);
+    color: rgb(160, 159, 158);
+
+}
+.footer .copyright a{
+    text-decoration: none;
+}
+
+.ftr{
+    color: #000;
+    font-size: 12px;
+}
+
+/* footer end */
+
+
+/* mobile css */
+
+@media  screen and (max-width:400px){
+    .glass1{
+        margin-top: 5px;
+        padding: 3px 25px;
+        text-align: center;
+        /* font-size: 15px; */
+        
+    }
+    .font1{
+        font-size: 25px;
+    }
+
+    .home-class{
+        margin-top: 70px;
+        margin-bottom: 0px;
+    }
+}
+
+
+/* responsive css for hero section glass start here */
+@media  screen and (max-width:400px){
+    .glass{
+        width:800px;
+        height:700px;
+        margin-left: 0px;
+        padding: 10px;
+        margin-bottom: 75px;
+
+
+
+    }
+    
+}
+
+@media  screen and (max-width:770px){
+    
+    .home-class{
+        /* margin-top: 70px; */
+        margin-bottom: 0px;
+        /* margin: 10px; */
+        padding: 10px;
+        height: 90vh;
+    }
+    .glass{
+        width:800px;
+        height:700px;
+        margin-left: 0px;
+        padding: 10px;
+        margin-bottom: 75px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+
+
+
+    }
+   .glass1{
+        margin-top: 10px;
+        padding: 3px 25px ;
+        text-align: center;
+        font-size: 25px;
+   }
+
+   
+   
+ .card-box{
+    display: flex;
+    margin: 0 35px;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    align-items: center;
+    justify-content: center;
+
+}
+.our-expertise{
+    width: 100%;
+}
+.green{
+    font-size: 13px;
+}
+.flex{
+    margin: 5px;
+    height: 40vh;
+    width: 100%;
+    padding: 10px ;
+}
+.flex .box{
+    
+    display: flex;
+    position: relative;
+    max-width: 900px;
+    padding: 5px;
+    background: rgb(255,255, 255, .4);
+    box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.5);
+    border: 5px solid transparent;
+    /* font-weight: bold; */
+    font-family: var(--font2);
+    
+}
+.green{
+    font-size: 12px;
+}
+
+}
+
+
+/* responsive css for hero section glass end here */
+/* mobile css3 */
+ @media  screen and (max-width:400px){
+    .card-box{
+        display: flex;
+        margin: 2px 0px;
+        flex-wrap: wrap;
+    }
+     .card{
+         position: relative;
+         margin:  25px 0px;
+         padding: 3px 3px;
+     }
+     .imgbox{
+        position: relative;
+        transform: translateY(-60px);
+        margin: 15px 0px;
+    }
+    .card .imgbox .btn-touch{
+        padding:0px 10px;
+        font-weight: bold;
+        margin: 25px 0;
+        font-size: 13px;
+        font-family:" avro";
+    
+    }
+    .card .content{
+        padding-top: 70px;
+        text-align: center;
+        transform: translateY(-300px);
+        opacity: 0;
+
+    }
+    .content p{
+        font-size: 12px;
+        padding-bottom: 2px;
+    }
+    .card .btn-call{
+        padding:3px 15px;
+        font-size: 12px;
+        font-family: "serif";
+
+    }
+    
+.card .imgbox .lets-talk{
+    padding:0px 25px;
+    margin: 25px 0;
+    font-size: 15px;
+    font-family:" avro";
+}
+.lorem{
+    font-size: 12px;
+}
+ }
+
+ 
+/* mobile css4 */
+@media  screen and (max-width:400px){
+    .our-expertise{
+        font-size: 10px;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+
+
+
+    }
+
+    .mobile{
+        margin-top: 50px;
+    }
+    .services{
+        margin-top: 70px;
+        font-size: 25px;
+    }
+    .title{
+        /* padding: 0px; */
+        font-size: 15px;
+        padding-bottom: 10px;
+
+    }
+    .green{
+        font-size: 12px;
+        
+    }
+    .whycourt{
+        margin-top: 10px;
+    }
+}
+ /* mobile css 5  */
+
+@media (max-width: 576px)  {
+    .box{
+        position: inherit;
+        padding: 5px;
+        display: block;
+        max-width: 100%;
+    }
+    .flex{
+        padding: 0px 5px;
+    }
+     
+
+
+}
+/* footer mobile css */
+@media screen and(max-width:770px){
+    
+.footer{
+    height: 100%;
+    width: auto;
+    background: #000;
+    padding: 0 0 10px 0;
+    color: rgb(5, 3, 43);
+    font-size: 15px;
+}
+.footer {
+    padding: 3px 0 3px 0;
+}
+    
+}
+
