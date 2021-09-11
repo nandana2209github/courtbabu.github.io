@@ -969,7 +969,7 @@ img{
     .card .imgbox .btn-touch{
         padding:0px 10px;
         font-weight: bold;
-        margin: 25px 0;
+        margin: 5px 0;
         font-size: 13px;
         font-family:" avro";
     
@@ -994,7 +994,7 @@ img{
     
 .card .imgbox .lets-talk{
     padding:0px 25px;
-    margin: 25px 0;
+    margin: 5px 0;
     font-size: 15px;
     font-family:" avro";
 }
@@ -1054,14 +1054,14 @@ img{
 
 }
 /* footer mobile css */
-@media screen and(max-width:770px){
+@media (max-width:770px){
     
 .footer{
     height: 100%;
     width: auto;
-    background: #000;
+    /* background: #000; */
     padding: 0 0 10px 0;
-    color: rgb(5, 3, 43);
+    /* color: rgb(5, 3, 43); */
     font-size: 15px;
 }
 .footer {
